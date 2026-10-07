@@ -73,7 +73,7 @@ if (!cur) {
 }
 
 console.log(`\n--- same user fires again in the new window ---`);
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 9; i++) {
   attempt(i);
   await Bun.sleep(100);
 }
